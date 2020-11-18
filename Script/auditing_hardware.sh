@@ -55,3 +55,12 @@ firewall-cmd --list-protocol
 # Check RAM and SWAP Usages
 echo -e '\E[32m'"Ram Usages :"
 
+free -h
+
+echo -en '\n'
+
+# Check Disk Status
+
+echo -e 'Disk Status :'
+df -aTh
+
